@@ -1,0 +1,145 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+  display: flex;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Tambahan CSS untuk section profile */
+
+/* #profile {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid orange;
+}
+
+.profile-text {
+  margin-left: 20px;
+}
+
+.profile-text h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.profile-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: grey;
+}
+
+.action {
+  margin-top: 10px;
+}
+
+.action button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.action button:last-child  {
+  padding: 10px 20px;
+  background: #fff;
+  color: #28a745;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#detail {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+#detail table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#detail table td {
+  padding: 8px;
+}
+
+#detail table td:first-child {
+  font-weight: bold;
+  width: 30%;
+} */
