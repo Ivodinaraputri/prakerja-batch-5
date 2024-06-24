@@ -65,7 +65,7 @@ form input[type="submit"] {
 
 /* Tambahan CSS untuk section profile */
 
-/* #profile {
+#profile {
   display: flex;
   align-items: center;
   background-color: white;
@@ -142,4 +142,4 @@ form input[type="submit"] {
 #detail table td:first-child {
   font-weight: bold;
   width: 30%;
-} */
+}
